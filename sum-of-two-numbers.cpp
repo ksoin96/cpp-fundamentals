@@ -2,11 +2,13 @@
 
 int main()
 {
-   std::cout << "Enter two numbers: ";
+   std::cout << "Enter the first number: ";
 
    int x{};
    std::cin >> x;
 
+   std::cout << "Enter the second number: ";
+   
    int y{};
    std::cin >> y;
 
