@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main(){
+   int number;
+   std::cout << "What is your number? ";
+   std::cin >> number;
+
+   if (number%2==0){
+      std::cout << "Even";
+
+   }
+   else{
+      std::cout << "Odd";
+   }
+
+   return 0;
+
+}
